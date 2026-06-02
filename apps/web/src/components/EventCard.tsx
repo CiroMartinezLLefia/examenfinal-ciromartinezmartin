@@ -1,4 +1,4 @@
-// import Link from "next/link"
+
 
 interface Props 
     {res: { id: number, nom: string, data: Date, ciutat: string, }
