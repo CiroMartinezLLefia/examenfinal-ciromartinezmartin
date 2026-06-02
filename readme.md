@@ -70,3 +70,6 @@
 | D. Integració | | 1,0 |
 | E. README + PR | | 1,0 |
 | **TOTAL** | | **10,0** |
+
+
+### +1 de tener los apuntes
