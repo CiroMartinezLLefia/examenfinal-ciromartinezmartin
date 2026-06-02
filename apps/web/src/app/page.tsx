@@ -12,19 +12,26 @@ interface Event {
 export default function Page() {
   const [data, setData] = useState<Event[]>([])
   const [error, setError] = useState<string>("")
+  const [loading, setLoading] = useState<boolean>(true)
 
   useEffect(() => {
     fetch("http://localhost:3000/api/events")
       .then((res) => (res.ok ? res.json() : Promise.reject()))
       .then((d) => {
         setData(d.eventos)
+        setLoading(false)
       })
       .catch(() => {
         setError("Error Carga")
+        setLoading(false)
       })
   }, [])
 
   const events = data
+
+  if (loading) return <p>Carregant...</p>
+  
+  if (error) return <p>{error}</p>
 
   return (
     <>
