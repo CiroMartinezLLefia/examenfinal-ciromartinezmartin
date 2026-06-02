@@ -22,7 +22,6 @@ export default function Page() {
         setLoading(false)
       })
       .catch(() => {
-        setError("Error Carga")
         setLoading(false)
       })
   }, [])
