@@ -13,9 +13,9 @@
 | [X] | B0 — Monorepo amb `apps/web` i `apps/api` | 0,2 |
 | [X] | B1 — `app/page.tsx` amb títol | 0,2 |
 | [X] | B2 — `app/events/page.tsx` funcional | 0,4 |
-| [ ] | B3 — `EventCard` reutilitzable | 0,5 |
-| [ ] | B4 — Targetes amb `id`, `nom`, `data`, `ciutat` | 0,6 |
-| [ ] | B5 — Almenys 4 events visibles | 0,3 |
+| [X] | B3 — `EventCard` reutilitzable | 0,5 |
+| [X] | B4 — Targetes amb `id`, `nom`, `data`, `ciutat` | 0,6 |
+| [X] | B5 — Almenys 4 events visibles | 0,3 |
 | [X] | B6 — Estil bàsic (CSS o Tailwind) | 0,4 |
 | [X] | B7 — Carpetes `app/` i `components/` | 0,3 |
 | [X] | B8 — Frontend arrenca sense errors bloquejants | 0,1 |
@@ -25,7 +25,7 @@
 
 | | Criteri | Punts |
 | --- | --- | --- |
-| [ ] | C1 — `GET /api/events` → llistat JSON | 0,5 |
+| [X] | C1 — `GET /api/events` → llistat JSON | 0,5 |
 | [ ] | C2 — `GET /api/events/:id` → un event | 0,5 |
 | [ ] | C3 — `id` inexistent → `404` JSON | 0,5 |
 | [ ] | C4 — `routes/` + `controllers/` | 0,4 |

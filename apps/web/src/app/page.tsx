@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react'
 import EventCard from "../components/EventCard"
 
 interface Event {
-    id: number, 
+    id: string, 
     nom: string, 
-    data: Date, 
+    data: string, 
     ciutat: string,
 }
 

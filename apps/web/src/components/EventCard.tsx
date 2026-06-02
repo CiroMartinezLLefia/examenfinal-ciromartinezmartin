@@ -13,6 +13,7 @@ export default function EventCard({ res }: Props) {
       <h3>{res.nom}</h3>
       <h2>{res.ciutat}</h2>
       <p>{res.data}</p>
+      <p>{res.id}</p>
     </div>
   );
 }
